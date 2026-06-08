@@ -66,7 +66,7 @@ export const createGeneralSettings = async () => {
 				public: true,
 			},
 		);
-		await this.add('Site_Name', 'Rocket.Chat', {
+		await this.add('Site_Name', 'ITBus Chat', {
 			type: 'string',
 			public: true,
 			wizard: {
@@ -78,7 +78,7 @@ export const createGeneralSettings = async () => {
 			type: 'string',
 			public: true,
 		});
-		await this.add('Language', '', {
+		await this.add('Language', 'vi-VN', {
 			type: 'language',
 			public: true,
 			wizard: {
